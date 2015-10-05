@@ -1,0 +1,26 @@
+.cornNews{
+    display: block;
+}
+
+.secondary{
+    display: block;
+    width: 100%;
+}
+
+#movie{
+    width: 100%;
+}
+
+#cornTableData{
+    width: 100%;
+    text-align: right;
+    font-size: 2em;
+}
+
+#subscribeForm{
+    width: 100%;
+}
+
+form{
+    width: 100%;
+}

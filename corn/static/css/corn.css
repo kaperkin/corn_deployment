@@ -1,0 +1,97 @@
+:root{
+	background-color: #FFF3C9;
+}
+
+
+
+#title {
+	text-align: center;
+	background-color: #FF9900;
+	max-width: 100%;
+	font-family: 'Lobster', 'Ubuntu Medium', sans-serif;
+	padding: 10px 0px 5px 0px;
+	font-size: 1.5em;
+	background-image: url(http://f.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2013/11/3021663-poster-1280-monsanto-sweet-corn.jpg);
+	background-repeat: no-repeat;
+}
+
+#title a{
+	text-decoration:none;
+	color: black;
+	
+}
+
+.mainNav {
+	font-family: 'Lobster', 'Ubuntu Medium', sans-serif;
+	text-align:  right;
+	height: 40px;
+	background-color: #FFCC00;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.mainNav a{
+	padding: 10px 20px;
+	margin: 0 5px;
+	border-radius: 5%;
+	background-color: #EF7F0B;
+	display: inline-block;
+	color: black;
+}
+
+.col{
+	display: inline-block;
+	padding: 20px;
+	margin-right: -10px;
+}
+
+.whatIsCorn{
+	width:50%;
+	background-color: #FFEC4A;
+}
+
+.table{
+	width: 40%;
+	vertical-align: top;
+}
+
+.cornNews{
+	max-width: 100%;
+	min-height: 200px;
+}
+
+.cornNews a {
+	color: #EF7F0B;
+
+}
+.cornStories{
+	min-height: 400px;
+	clear: both;
+	display: block;
+}
+
+.myShoutOut {
+	font-size: 1.15em;
+	font-family: 'Lobster', 'Ubuntu Medium', sans-serif;
+	text-align: left;
+
+}
+
+thead {
+	background-color: #FFAC24;
+}
+
+.cornFacts {
+	display: flex;
+}
+
+li:nth-child(odd) {
+	background-color: #E7B82C;
+	color: black;
+	border-radius: 5px;
+}
+
+
+
+
+

@@ -1,0 +1,40 @@
+div {
+	text-align: center;
+}
+
+.primary {
+	height: 100%;
+	background-color: silver;
+}
+
+.joke {
+	font-size: 1.5em;
+}
+
+button {
+	background-color: gold;
+	border-radius: 5px;
+	height: 80px;
+	width: 350px;
+	padding: 40px 0px;
+	font-size: 1em;
+	font-family: 'Lobster', 'Ubuntu Medium', sans-serif;
+}
+
+.punchLine{
+	font-size: 1.25em;
+	padding: 40px 0px;
+	height: 160px;
+}
+
+@media (max-device-width: 600px){
+	button{
+		font-size: 1.5em;
+	}
+	.punchLine{
+		font-size: 1.5em;
+	}
+	.joke{
+		font-size: 2em;
+	}
+}
