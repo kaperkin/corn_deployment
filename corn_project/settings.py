@@ -30,7 +30,9 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+
 INSTALLED_APPS = (
+#    'grappelli',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -79,7 +81,22 @@ USE_L10N = True
 USE_TZ = True
 
 
+
+
+# config for grapelli admin theme
+#urlpatterns = [
+#    url(r'^grappelli/', include('grappelli.urls')), # grappelli URLS
+#    url(r'^admin/', include(admin.site.urls)), # admin site
+#]
+
+#TEMPLATE_CONTEXT_PROCESSORS = (
+#    "django.core.context_processors.request",
+#)
+
+
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
+STATIC_ROOT = '/home/kaleena/django/corn_project/corn/static/'
 STATIC_URL = '/static/'

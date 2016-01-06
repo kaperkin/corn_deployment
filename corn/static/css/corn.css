@@ -1,5 +1,6 @@
-:root{
+body{
 	background-color: #FFF3C9;
+margin: 0;
 }
 
 
@@ -37,6 +38,10 @@
 	background-color: #EF7F0B;
 	display: inline-block;
 	color: black;
+}
+
+.wrapper{
+    margin: 0 10px;
 }
 
 .col{
